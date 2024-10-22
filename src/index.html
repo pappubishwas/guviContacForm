@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contactForm">
+        <div class="contactFormHeader">
+            <div class="left">
+                <h2>Say <strong>Hello!</strong></h2>
+                <p>Feel free to stop by and say hi !</p>
+            </div>
+            <div class="right">
+                <img src="images/CEk7dWI_-left_bottom.jpg" alt="logo photo">
+            </div>
+        </div>
+        <div id="responseMessage" style="color: red;"></div>
+
+        <form id="contactForm">
+            <label for="name">Name<span class="required">*</span></label>
+            <input type="text" id="name" name="name" required aria-label="Name"><br>
+          
+            <label for="email">E-mail id<span class="required">*</span></label>
+            <input type="email" id="email" name="email" required aria-label="Email"><br>
+          
+            <label for="contactNumber">Contact Number<span class="required">*</span></label>
+            <input type="text" id="contactNumber" name="contactNumber" required aria-label="Contact Number"><br>
+          
+            <label for="subject">Subject<span class="required">*</span></label>
+            <input type="text" id="subject" name="subject" required aria-label="Subject"><br>
+          
+            <label for="message">Message<span class="required">*</span></label>
+            <textarea id="message" name="message" required aria-label="Message"></textarea><br>
+          
+            <button type="submit" id="sendBtn">Send</button>
+        </form>
+          
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
